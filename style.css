@@ -1,0 +1,186 @@
+html {
+    scroll-behavior: smooth;/*添加滾動事件監聽器*/
+}
+body {
+    background-color: #efecec; 
+    background-repeat:no-repeat;
+    background-position:top left;
+    background-attachment:fixed;
+    font-family: Arial,oblique, sans-serif;
+    padding: 15px;
+}
+header{
+    background-image:url("bg_photo/bird-1972221_1280.jpg");
+    border-radius: 15%;
+    text-align: center;
+}
+header h3{
+    font-style: italic;
+    font-weight: bold;  
+    font-size: 25px;
+    font-family: Arial, oblique, sans-serif;
+}
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+article{
+    float:left;
+    width: 75%;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius:5%;
+    padding: 15px;
+    margin: 10px;
+    letter-spacing: 2px;
+    line-height: 33px;
+}   
+footer{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 5%;
+    text-align: center;
+}
+
+main{
+    padding: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10px;
+    background: url(./image/);
+}
+/*側邊攔*/
+aside{
+    float:right;
+    border:1px solid #000;
+    text-align: center;
+    background-color: white;
+    height:auto;
+    padding:auto;
+    width:auto;
+}
+aside img{
+    width: 50px;
+    height: 50px;
+    margin:3px;
+}
+aside h4{
+    font-style: italic;
+    font-weight: bold;  
+    font-size: 25px;
+    font-family: Arial,oblique, sans-serif;
+}
+.myprofile{
+    width: 200px;
+    height: auto;
+}
+/*分隔線*/
+.hr {
+    border: 2;
+    color: #d0d0d5;
+    display: flex;
+}
+img{
+    width: 200px;
+    height: 100px;
+    margin:3px;
+}
+/*我的興趣*/
+.dtstyle{
+    font-size: 2rem;
+    font-weight: bold;
+    gap: 20px; 
+    text-align: left;/*文字置中*/
+}
+.contentcolor{
+    font-size: 20px;
+    text-align: left;
+    gap: 20px;
+}
+.card-body p{
+    text-align: center;
+}
+
+/*專業技能*/
+.skills {
+    padding: 20px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill h3 {
+    text-align: center;
+    margin: 1px;/*與邊界的距離*/
+}
+
+.skill-bar {
+    background-color: #ccc;
+    height: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.skill-level {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.programing{    
+    width: 80%;
+    background-color: #4caf50; 
+}
+.Front-end{
+    width: 50%;
+    background-color: #4caf50;
+}
+.Back-end{
+    width: 40%;
+    background-color: #4caf50;
+}
+.painting{
+    width: 20%;
+    background-color: #4caf50;
+}
+.language{
+    width: 65%;
+    background-color: #4caf50; 
+}
+
+.machine-learning{
+    width: 10%;
+    background-color: #4caf50; 
+}
+/*個人經歷*/
+.image-container {
+    display: flex;/*水平放置*/
+    align-items: center; /* 垂直中對其 */
+}
+
+.image-container img {
+    max-height: 300px;/* 最大高度 */
+    max-width: 200px; /* 最大寬度 */
+    height: auto;
+    width: auto;
+    margin-right: 20px; /* 調整圖像往右邊(與文字)之間的距離 */
+}
+
+.image-container p{
+    font-size: 18px;
+}
+/*清除格式seciton的設定*/
+.clearfix{
+    clear: both;
+}
+.backtop{
+    width: 30px;
+    height: 30px;
+    margin:3px;
+}
