@@ -179,8 +179,12 @@ img{
 .clearfix{
     clear: both;
 }
-.backtop{
+.backtop {
     width: 30px;
     height: 30px;
-    margin:3px;
+    margin: 3px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px; /* 将 right 属性设置为调整到右侧 */
+    z-index: 1; /* 保证图标位于页面上方 */
 }
